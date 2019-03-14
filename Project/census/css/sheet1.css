@@ -1,0 +1,265 @@
+/* This is the Header */
+body
+{
+              background-image: url(img/boar.gif);
+			
+}
+.hide
+		{
+			display:none;
+		}
+	
+#Content
+{
+					width:1200px;
+					 margin-left:450px;
+      margin-right:450px;
+	  margin:0 auto;
+}
+/* End Of Body */
+#Container
+{
+					width:1200px;
+					margin:0 auto;
+				
+				
+}
+
+
+/* This is Header */
+
+#heading
+{
+      margin-top: 0px;
+      width:1200px;
+      background:transparent url(../img/bg-bubheader1.jpg) top left no-repeat;
+      margin-left:450px;
+      margin-right:450px;
+      height:198px;
+	  position:relative;
+      line-height:20px;
+      font-size:15px;
+      border-radius: 5px;
+      border-bottom-color: #2A0000;
+      border-bottom:1px solid beige;
+	  margin:0 auto;
+}
+
+
+/* End of Header */
+
+/* This is a navigation */#navmenu ul{
+    clear:both;
+    margin-top:140px;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:1200px;
+	position:relative;
+	display:block;
+	height:36px;
+	text-transform:uppercase;
+	font-size:18px;
+	font-weight:bold;
+	background:transparent url('../img/OFF.gif') repeat-x top left;
+	font-family:Helvetica,Arial,Verdana,sans-serif;
+	border-bottom:4px solid #336666;
+	border-top:1px solid #C0E2D4;
+	
+}
+
+#navmenu li{
+	display:block;
+	float:left;
+	margin:0;
+	pading:0;}
+#navmenu li a{
+	display:block;
+	float:left;
+	color:#874B46;
+	text-decoration:none;
+	font-weight:bold;
+	padding:12px 20px 0 20px;
+	height:24px;
+	background:transparent url('../img/DIVIDER.gif') no-repeat top right;
+	}
+#navmenu li a:hover{
+	background:transparent url('../img/HOVER.gif') no-repeat top right;	
+	}
+/*End of Sub Navigation*/
+
+/* Starting of css of Section -*/
+
+
+                #Sectioncontent {   
+                               position: fixed;
+                               width: 450px;
+                               height: 70px;
+                               margin-left:0px;
+                             
+                               margin-top:30px;
+                      
+                               -webkit-font-smoothing: antialiased;    
+                              
+                            
+}
+#Sectioncontent ul {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#Sectioncontent ul li {
+	display: block;
+	float: left;
+	width: 90%;
+	margin: 0;
+	padding: 0;
+	background: transparent url(../img/bg-bubplastic-button.gif) top left no-repeat;
+}
+
+#Sectioncontent ul li a {
+	display: block;
+	margin: 0;
+	width: 90%;
+	padding-left:-90px;
+	text-transform: uppercase;
+	font-family: 'Helvetica Neue',helvetica,'microsoft sans serif',arial,sans-serif;
+	font-size: 70%;
+	color: #FFFFFF;
+	text-decoration: none;
+	background: transparent url(../img/bg-bubplastic-button.gif) top left no-repeat;
+}
+
+#Sectioncontent ul li a span {
+	display: block;
+	margin: 0;
+	width: 100%;
+	height: 22px;
+	padding-top: 5px;
+	padding-right: 35px;
+	background: transparent url(../img/bg-bubplastic-button.gif) top right no-repeat;
+	cursor: pointer;
+}
+
+/* AQUA HOVER */
+#Sectioncontent ul li a:hover,
+#Sectioncontent ul li.active a {
+	background: transparent url(../img/bg-bubplastic-h-aqua.gif) top left no-repeat;
+}
+#Sectioncontent ul li a:hover span,
+#Sectioncontent ul li.active a span {
+	background: transparent url(../img/bg-bubplastic-h-aqua.gif) top right no-repeat;
+}
+#contn
+{
+								position: fixed;
+								width: 380px;
+								height: 140px;
+								top: 50%;
+								left: 50%;
+								margin-top: -140px;
+								margin-left:-35%;
+								color: #444;   
+								-webkit-font-smoothing: antialiased;    background: #f0f0f0;
+								font-size:15px;
+								border-radius: 0px 0px 5px 5px;
+}
+
+#divlast
+{
+								position: fixed;
+								width: 380px;
+								height: 180px;
+								top: 54%;
+								left: 50%;
+								margin-top: -10px;
+								margin-left:-35%;
+								color: #444;   
+								-webkit-font-smoothing: antialiased;    background: #f0f0f0;
+								font-size:15px;
+}
+
+#main
+{
+											clear:both;
+											position: fixed;
+											width:750px;
+									
+									         margin-left:450px;
+											margin-top:60px;
+										
+											
+											color: #444;   
+											-webkit-font-smoothing: antialiased;    
+											font-size:15px;
+											border-radius: 0px 0px 5px 5px;
+											height:auto;
+}
+
+#footest
+{
+    
+      width: 1200px;
+      background:transparent url(../img/bg-bubfooter1.jpg) top left no-repeat;
+      text-align:center;
+      font-style:oblique;
+      color:#0000FF;
+      height:110px;
+      line-height:20px;
+      font-size:15px;
+      background-repeat: no-repeat;
+      border-radius: 5px;
+      border-bottom-color: #2A0000;
+      border-bottom:1px solid beige;
+	   margin:0 auto;
+	  margin-top:500px;
+	  overflow: auto;
+	  
+	
+	  }
+/**/
+#heawelcome {
+															
+															margin-top:30px;
+											                margin-left:450px;
+											
+															position:fixed;
+															width:750px;
+															height: 30px;
+															font-size: 14px;
+															font-weight: bold;
+															color: #fff;
+															background-color: #acd6ef; /*IE fallback*/
+															text-align:center;
+}
+#main1
+{
+											clear:both;
+											position: fixed;
+											width:750px;
+									        margin-left:450px;
+											 margin-top:80px;
+										
+											
+											color: #444;   
+											-webkit-font-smoothing: antialiased; 
+											font-size:15px;
+											border-radius: 0px 0px 5px 5px;
+}
+img {
+margin-left:5px;
+width:210px;
+height:180px;
+position:fixed;
+}
+#n {
+margin-left:23.5%;
+font-size:20px;
+}
+#z {
+font-size:20px;
+}
+article {
+margin-top:110px;
+}

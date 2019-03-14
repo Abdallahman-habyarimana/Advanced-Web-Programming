@@ -1,0 +1,1171 @@
+body
+{
+    width:100%;
+}
+
+/************************************************************************
+                        Main page
+***********************************************************************/
+
+/*
+ --------------------------------------------------------------------
+                    Header Menu
+ --------------------------------------------------------------------
+*/
+
+#wrapper{
+
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left:  10px;
+}
+#header_Style
+{
+    margin-top:1px;
+    width:auto;
+}
+.header{
+    width: 60%;
+    margin-left: 180px;
+}
+.headerSearch{
+    margin-top: 1px;
+    width:35%;
+
+}
+#header_Style h1
+{
+    margin-top:-100px;
+    width:auto;
+    margin-left: 180px;
+    height: 30px;
+}
+#header_Style h2
+{
+    margin-top:20px;
+    width:auto;
+    height: 50px;
+    margin-left: 180px;
+}
+.LogoImg {
+    position:relative;
+    width:120px;
+    height: 120px;
+    margin-left: 20px;
+}
+.LogoImg1 {
+    margin-top: -200px;
+    clear: both;
+    position:relative;
+    margin-left:400px;
+    width:80px;
+    height: 80px;
+}
+
+.form_Search{
+    margin-top: -20px;
+    clear: both;
+    position:relative;
+    margin-left:330px;
+}
+.btn{
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    border:none;
+    font-size:10px;
+    font-weight:600;
+    border-radius:5px;
+    padding:10px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+}
+#mySerach{
+    margin-top: -20px;
+    clear: both;
+    position:relative;
+    margin-left:380px;
+}
+
+/*---------------------End Header Menu -----------------------------*/
+
+/*
+ --------------------------------------------------------------------
+                    Navigation Menu
+ --------------------------------------------------------------------
+*/
+
+#navmenu{
+    clear:both;
+    margin-top:140px;
+    padding:0;
+    list-style-type:none;
+    width:1000px;
+    position:relative;
+    display:block;
+    height:50px;
+    font-size:18px;
+    font-weight:bold;
+    font-family:Helvetica,Arial,Verdana,sans-serif;
+    border-bottom:1px solid #73AD21;
+    margin:0 auto;
+    background-color: green;
+}
+#navmenu li{
+    display:block;
+    float:left;
+    margin:0;
+    pading:0;}
+#navmenu li a{
+    display:block;
+    float:left;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    padding:12px 20px 0 20px;
+    height:24px;
+}
+/*---------------------End Navigation Menu ------------------------*/
+
+/*
+ --------------------------------------------------------------------
+                 Share Menu
+ --------------------------------------------------------------------
+*/
+.connect_Text{
+    clear:both;
+    margin-left:530px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.fa {
+    float:right;
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    height :10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+.fa-rss {
+    background: #ff6600;
+    color: white;
+}
+
+/*---------------------End Share Menu -----------------------------*/
+
+/*
+ --------------------------------------------------------------------
+                    Section 01
+ --------------------------------------------------------------------
+*/
+.content_section {
+    clear:both;
+    border:2px;
+    margin-left: auto;
+    height: 70px;
+    width:700px;
+    margin:0 auto;
+}
+.content_section1 {
+    clear:both;
+    border:2px;
+    margin-right: auto;
+    height: auto;
+    width:700px;
+}
+.content_section1 h2 {
+    text-align:center;
+    font-size: 24px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: oblique;
+}
+.content_section1 span {
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+  Knowledge Section
+  */
+
+.content_section3 {
+    clear:both;
+    border:2px;
+    margin-left: auto;
+    height: 70px;
+    width:700px;
+    border : 2px solid goldenrod;
+    background-color: #45a049;
+}
+.content_section3 h2 {
+    text-align:center;
+    font-size: 24px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: oblique;
+}
+.content_section3 span {
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.content_section3_Title{
+    clear:both;
+    width:700px;
+    height : auto;
+    background-color:#d58512;
+    margin-top: -120px;
+    text-align: left;
+    margin-right: auto;
+}
+.panel_aside {
+    clear:both;
+    width : 240px;
+    height : auto;
+    border : 2px solid goldenrod;
+    margin-left: 825px;
+    margin-top:-420px;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 5px;
+}
+/*_____Class For aside Title_____*/
+.panel_aside_Title {
+    clear:both;
+    width : 240px;
+    height : 40px;
+    background-color:#d58512;
+    margin-top: -20px;
+    text-align: center;
+}
+/*_____Class For aside Content and links_____*/
+.panel_aside_Content {
+    clear:both;
+    text-align: left;
+}
+
+/*---------------------End Section 01 -------------------------------*/
+
+/*
+ --------------------------------------------------------------------
+                    Section 02(Quote)
+ --------------------------------------------------------------------
+*/
+
+.section_quote {
+    clear:both;
+    border:2px;
+    margin-right: auto;
+    height: auto;
+    width:600px;
+    margin-top:200px;
+}
+.content_quote h2 {
+    text-align:center;
+    font-size: 24px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: oblique;
+}
+.content_quote img {
+    width: 350px;
+    height:70px;
+    align-items: center;
+}
+/*---------------------End Section 02 -------------------------------*/
+
+/*
+ --------------------------------------------------------------------
+               Aside 01(Panel Knowledge)
+ --------------------------------------------------------------------
+*/
+aside{
+    clear: both;
+    margin-left: 300px;
+    padding-bottom: 10px;
+}
+/*_____Class For aside_____*/
+.panel_aside {
+    clear:both;
+    width : 240px;
+    height : auto;
+    border : 2px solid goldenrod;
+    margin-left: 825px;
+    margin-top:-420px;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 5px;
+}
+/*_____Class For aside Title_____*/
+.panel_aside_Title {
+    clear:both;
+    width : 240px;
+    height : 40px;
+    background-color:#d58512;
+    margin-top: -20px;
+    text-align: center;
+}
+/*_____Class For aside Content and links_____*/
+.panel_aside_Content {
+    clear:both;
+    text-align: left;
+}
+.panel_aside_Content ul {
+    display: inherit;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.panel_aside_Content ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.panel_aside_Content ul li a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 20px 0 20px;
+    height: 24px;
+    margin-bottom: 10px;
+}
+/*_______Class For links________________*/
+.panel_aside_Content ul li a:hover {
+    color:yellowgreen;
+}
+.panel_aside_Content ul li a:visited {
+    color:darkorange;
+}
+.panel_aside_Content ul li a:link {
+    color:green;
+}
+.panel_aside_Content ul li a:active {
+    color:yellowgreen;
+    text-decoration: none;
+    background-color: transparent;
+}
+/*---------------------End Aside 01(Panel Knowledge) -----------*/
+
+/*
+ --------------------------------------------------------------------
+                   Aside 02 (Panel Review)
+ --------------------------------------------------------------------
+*/
+
+.panel_review {
+    clear:both;
+    width : 240px;
+    padding-top: 20px;
+    height : 180px;
+    background-color:white;
+    margin-left: 825px;
+    border: 2px solid green;
+    margin-top:20px;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 4px;
+}
+
+/*_____Class For aside Title_____*/
+.panel_review_Title {
+    clear:both;
+    width : 240px;
+    height : 40px;
+    background-color:Green;
+    margin-top: -40px;
+    text-align: center;
+    color:white;
+}
+/*_____Class For aside Content and links_____*/
+.panel_review_Content {
+    clear:both;
+    background-color: white;
+}
+.panel_review_Content ul {
+    display: inherit;
+    list-style-type: none;
+}
+.panel_review_Content ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.panel_review_Content ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 20px 0 20px;
+    height: 24px;
+}
+/*_______Class For links________________*/
+
+.panel_review_Content ul li a:hover {
+    color:yellowgreen;
+}
+.panel_review_Content ul li a:visited {
+    color:darkorange;
+}
+.panel_review_Content ul li a:link {
+    color:green;
+}
+.panel_review_Content ul li a:active {
+    color:yellowgreen;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/*---------------------End Aside 02(Panel Review) -----------*/
+
+/*
+ --------------------------------------------------------------------
+                 Aside 03(Panel Decompose)
+ --------------------------------------------------------------------
+*/
+.panel_decompose{
+    clear:both;
+    width : 240px;
+    padding-top: 20px;
+    height : auto;
+    background-color:white;
+    margin-left: 1015px;
+    border: 2px solid orangered;
+    margin-top:20px;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 4px;
+}
+.panel_decompose_Title {
+    clear:both;
+    width : 240px;
+    height : 90px;
+    background-color:orangered;
+    margin-top: -40px;
+    text-align: center;
+    color:white;
+}
+/*_____Class For aside Content and links_____*/
+.panel_decompose_Content {
+    clear:both;
+    background-color: white;
+}
+.panel_decompose_Content ul {
+    display: inherit;
+    list-style-type: none;
+}
+.panel_decompose_Content ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.panel_decompose_Content ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 20px 0 20px;
+    height: 24px;
+}
+
+/*_______Class For links________________*/
+
+.panel_decompose_Content ul li a:hover {
+    color:yellowgreen;
+}
+.panel_decompose_Content ul li a:visited {
+    color:darkorange;
+}
+.panel_decompose_Content ul li a:link {
+    color:green;
+}
+.panel_decompose_Content ul li a:active {
+    color:yellowgreen;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+/*---------------------End Aside 03(Panel Decompose)  -------------*/
+
+/*
+ --------------------------------------------------------------------
+                  PopUp Section(** Inserted in 2018-01-02)
+ --------------------------------------------------------------------
+*/
+
+/*_______PopUp to Why we Recycled_________________*/
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    width: 500px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+    text-align: left;
+}
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+    background: #00d9ff;
+}
+/*_______PopUp to What we Recycled________________*/
+.modalDialog1 {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog1:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog1 > div {
+    width: 500px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+/*_______PopUp to Recycle Tips_______________*/
+.modalDialog2 {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog2:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog2 > div {
+    width: 700px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+/*_______PopUp to How Long Does It Take Garbage to Decompose (Aluminum Cans)____*/
+.modalDialog3 {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog3:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog3 > div {
+    width: 500px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+/*_______PopUp to How Long Does It Take Garbage to Decompose (Electronics Recycle)____*/
+.modalDialog4{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog4:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog4 > div {
+    width: 500px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+/*_______PopUp to How Long Does It Take Garbage to Decompose (Food Waste)____*/
+.modalDialog5{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog5:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog5 > div {
+    width: 500px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+/*_______PopUp to How Long Does It Take Garbage to Decompose (Glass)____*/
+.modalDialog6{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog6:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog6 > div {
+    width: 500px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+/*_______PopUp to How Long Does It Take Garbage to Decompose (Paper)____*/
+.modalDialog7{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog7:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog7 > div {
+    width: 500px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+/*_______PopUp to How Long Does It Take Garbage to Decompose (Plastic Waste)____*/
+.modalDialog8{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog8:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog8 > div {
+    width: 500px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+/*_______PopUp to How Long Does It Take Garbage to Decompose (Other Items)____*/
+.modalDialog9{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog9:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modalDialog9 > div {
+    width: 500px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+.modaDialog9 ul.a{
+    list-style-type: square;
+}
+
+/*---------------------End PopUp Section  -------------*/
+
+/*
+ --------------------------------------------------------------------
+                  Separator
+ --------------------------------------------------------------------
+*/
+.separator {
+    clear:both;
+    width:980px;
+    margin:0 auto;
+    padding-bottom: 10px;
+    border-top:1px solid #73AD21;
+}
+/*---------------------End Separator -------------*/
+
+
+/************************** End  Index Page ******************************/
+
+
+/************************************************************************
+                Register and Sign In page
+***********************************************************************/
+/*
+ --------------------------------------------------------------------
+                Login Section
+ --------------------------------------------------------------------
+*/
+
+.login_section {
+    clear:both;
+    width : 25%;
+    float:left;
+    height: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 60px;
+    margin-top:100px;
+    margin-left: 40px;
+}
+
+.login_section input[type=text],select, input[type=password], input[type=email]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login_section input[type=submit] {
+    clear: both;
+    width: 250px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.login_section input[type=submit]:hover {
+    background-color: #45a049;
+    align-content: center;
+}
+
+/*---------------------End Login Section  -------------*/
+/*
+ --------------------------------------------------------------------
+                Register Section
+ --------------------------------------------------------------------
+*/
+.register_section {
+    clear:both;
+    width : 40%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 60px;
+    margin-top:-280px;
+    float: right;
+    margin-right:5px;
+}
+#type{
+
+}
+.register_section input[type=text],select, input[type=password], input[type=email]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.register_section input[type=submit] {
+    clear: both;
+    width: 250px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register_section input[type=submit]:hover {
+    background-color: #45a049;
+    align-content: center;
+}
+
+/*---------------------End Register Section  -------------*/
+
+/*************** End Register and Sign In Page *************************/
+
+
+/************************************************************************
+             Drop Off Page  -    About us page -  Rewards page
+***********************************************************************/
+.dropoff{
+    clear: both;
+    margin-top: 50px;
+    margin-left: auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+.aboutus_section1{
+    clear: both;
+    width: auto;
+    height: auto;
+}
+.content_section3 {
+    clear:both;
+    border:2px;
+    margin-right: auto;
+    height: auto;
+    width:auto;
+}
+.content_section3 h2 {
+    text-align:center;
+    font-size: 24px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: oblique;
+}
+.content_section3 span {
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*************** End Drop Off Page *************************/
+
+/************************************************************************
+               Contact us page
+***********************************************************************/
+
+.container {
+    clear: both;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    width:800px;
+    height: auto;
+    margin-right: auto;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.form1 {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+.form1 div + div {
+    margin-top: 1em;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+input, textarea, email {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input, email {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    border-color: #000;
+}
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+.button {
+    padding-left: 90px;
+
+}
+button {
+    margin-left: .5em;
+}
+/*************** End Contact Us Page *************************/
+
+
+
+/************************************************************************
+               Links page
+***********************************************************************/
+
+.displayLinks {
+    clear: both;
+    width: auto;
+    height: auto;
+}
+.displayLinks ul{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.displayLinks ul li{
+    clear: both;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    margin-bottom: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+/*_______Class For links________________*/
+
+.displayLinks  ul li a:hover {
+    color:yellowgreen;
+}
+.displayLinks ul li a:visited {
+    color:darkorange;
+}
+.displayLinks  ul li a:link {
+    color:green;
+}
+.displayLinks  ul li a:active {
+    color:yellowgreen;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/************** End  Link Page******************************/
+
+/************************************************************************
+              Css for Tables
+***********************************************************************/
+.tabelLines {
+    border-collapse: collapse;
+    border: solid green 1px;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    margin-top: 20px;
+}
+.tabelLines th{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+.tabelLines tr:nth-child(even){
+    background-color: ghostwhite;
+    color: black;
+    text-align: left;
+}
+.tabelLines tr:nth-child(odd){
+    background-color: lightgreen;
+    color: black;
+    text-align: left;
+}
+
+
+
+/***************End  CSS Tables Page *************************/
+
+/************************************************************************
+               Write a Review page
+***********************************************************************/
+
+.container1 {
+    clear: both;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    width: 800px;
+    height: auto;
+    margin-right: auto;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+.form2 {
+    margin: 0 auto;
+    width: 750px;
+    height: auto;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+
+}
+.form2 div + div {
+    margin-top: 1em;
+}
+
